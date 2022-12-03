@@ -1,2 +1,6 @@
-add raw/character/sonic.pac
+add config_CustomSuper/raw/character/supersonic.pac
+add config_DarkspineSuper/raw/character/supersonic.pac
+add core_Main/raw/character/sonic.pac
+delete raw/character/sonic.pac
+add config.json
 add mod.ini
