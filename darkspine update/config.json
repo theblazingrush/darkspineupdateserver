@@ -1,0 +1,41 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Darkspine Sonic Reborn",
+         "Elements": [
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Super Sonic Style:",
+               "Description": [
+                  "Choose what style of Super Sonic is used."
+               ],
+               "Type": "Darkspine Sonic RebornEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "config_CustomSuper"
+            
+            }
+         ]
+      }
+   ],
+   "Enums": {
+		"Darkspine Sonic RebornEnum": [
+         {
+            "DisplayName": "Custom Super",
+            "Value": "config_CustomSuper",
+            "Description": [
+               "Use my Custom Darkspine Super Sonic as Super Sonic."
+            ]
+         },
+         {
+            "DisplayName": "Darkspine Super",
+            "Value": "config_DarkspineSuper",
+            "Description": [
+               "Use base Darkspine Sonic as Super Sonic."
+            ]
+         },	 
+      ]
+   },
+   "IniFile": "mod.ini"
+}
